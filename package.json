@@ -1,5 +1,5 @@
 {
-  "homepage":"https://akshay-s-madhwani.github.io/Aimuzik/",
+  "homepage": "https://akshay-s-madhwani.github.io/Aimuzik/",
   "name": "Aimuzik",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.6.2",
     "bootstrap-icons": "^1.4.0",
     "chokidar": "^1.7.0",
+    "netlify-cli": "^3.13.7",
     "p5": "^1.2.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
@@ -24,8 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b react --remote react",
+    "deploy": "gh-pages -d build https://github.com/akshay-s-madhwani/Aimuzik-Netlify.git",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
